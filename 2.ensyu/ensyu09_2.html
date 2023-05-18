@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"content="width=devic e-width,initial-scale=1.0"/>
+        <title>学生情報登録</title>
+    </head>
+    <body>
+        <h2>学生情報登録1</h2>
+        <p>必要事項を記入して登録ボタンを押してください。</p>
+        <br />
+        <action="#">
+            <p>学籍番号</p>
+            <input passward name="studentid"/>
+            <p>氏名</p>
+            <input text name="username"/>
+            <p>電話番号</p>
+            <input tel name="tel"/>
+            <p>生年月日</p>
+            <input type="date" name="birthday">
+            <p>メール</p>
+            <input mail name="mail"/>
+            <dt>性別</dt>
+            <dd>
+            <label><input type="radio" name="sex" value="男">男</label>
+            <label><input type="radio" name="sex" value="女">女</label>
+            </dd>
+            <p>備考</p>
+            <textarea name="remarks" cols="40" rows="4" maxlength="40"></textarea>
+            <br/>
+            <button type="submit" name="send" >登録</button>
+            <button type="reset"  value="クリア">クリア</button>
+        </from>
+    </body>
+</html>
